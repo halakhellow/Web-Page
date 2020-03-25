@@ -34,6 +34,17 @@ nav ul li img {
     width: 1em;
     height: 1em
 }
+nav ul li a {
+    text-decoration: none;
+    color:white;
+
+}
+nav ul li:hover,a:hover,aside ul li:hover{
+    background-color: #3ea5aa;
+    color:black;
+}
+
+
 section{
     float: left;
     
@@ -72,9 +83,11 @@ aside{
     padding: 2em 25px;
 }
 aside ul li{
-    
     padding: 7px 0px;
-
+}
+aside ul li a{
+    text-decoration: none;
+    color:white;
 }
 footer{
     clear: both;
